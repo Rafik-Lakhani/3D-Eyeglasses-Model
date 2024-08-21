@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3d</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div id="cursor"></div>
+      <nav>
+        <div class="nav-div">
+          <div class="left-nav">
+            <a href="/" class="links"> AlphaEye </a>
+          </div>
+          <div class="center-nav">
+            <ol class="list">
+              <li class="links">Home</li>
+              <li class="links">Categories</li>
+              <li class="links">All product</li>
+              <li class="links">Conect US</li>
+            </ol>
+          </div>
+          <div class="right-nav">
+            <div class="search-div">
+              <input type="text" class="" placeholder="Search Hare" id="search-input" />
+              <i class="ri-search-line" id="search-icon"></i>
+            </div>
+            <a href="singin.php"><i class=" ri-user-line"></i></a>
+            <a href="cart.php" ><i class=" ri-shopping-cart-2-line"></i></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- here hero section code start  -->
+      <div class="hero-sec">
+        <div class="container">
+          <div class="left-part">
+            <h3>Our vesion</h3>
+            <div class="title-div">
+            <h1 id="title"></h1>
+          </div>
+            <p>
+              Alpha Eye is redefining the eyewear experience by offering a range
+              of stylish and durable frames that cater to every personality and
+              lifestyle. Our commitment to innovation and craftsmanship ensures
+              that each pair not only enhances your vision but also complements
+              your style.
+            </p>
+            <a href="google.com">
+              <button class="link">Find Style</button>
+            </a>
+          </div>
+          <!-- here canvas part here draw a 3D model -->
+          <div class="right-part">
+            <div class="uperdiv"></div>
+            <div class="canvas-div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
